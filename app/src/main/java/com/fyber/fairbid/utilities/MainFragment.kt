@@ -133,21 +133,14 @@ class MainFragment : Fragment() {
     private val mUnits = listOf(
         Row(
             payload = UnitRowData(
-                "Banner",
-                R.drawable.banner_icon,
-                UnitType.Banner
-            )
-        ),
-        Row(
-            payload = UnitRowData(
-                "Interstitial",
+                "Interstitial programmatic",
                 R.drawable.interstitial_icon,
                 UnitType.Interstitial
             )
         ),
         Row(
             payload = UnitRowData(
-                "Rewarded",
+                "Rewarded programmatic",
                 R.drawable.rewarded_icon,
                 UnitType.Rewarded
             )
